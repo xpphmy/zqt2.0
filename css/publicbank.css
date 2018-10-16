@@ -1,0 +1,592 @@
+select {
+    /*Chrome和Firefox里面的边框是不一样的，所以复写了一下*/
+    border: solid 1px #000;
+
+    /*很关键：将默认的select选择框样式清除*/
+    appearance:none;
+    -moz-appearance:none;
+    -webkit-appearance:none;
+
+    /*在选择框的最右侧中间显示小箭头图片*/
+    background:#fbfdfe url("../img/t06.png") no-repeat scroll right center ;
+    /*为下拉小箭头留出一点位置，避免被文字覆盖*/
+    padding-right: 0px;
+}
+
+
+    /*清除ie的默认选择框样式清除，隐藏下拉箭头*/
+select::-ms-expand { display: none; }
+
+
+    #box{
+        color: #606265;       
+    }
+    input{
+        color: #606265;
+        line-height: 45px;
+    }
+    ul,li{
+        list-style: none;    
+    }
+    input{
+        border:1px solid #c2c2c2;;
+    }
+
+/* top */
+    .top{
+        width: 100%;
+        height:200px;
+        background: #4a79ff url(../img/back1.png) 0 75px repeat-x;
+        padding: 45px 0;
+    }
+    .topInner{
+        width: 1200px;
+        height: 190px;
+        margin: 0 auto;
+        background: #fcfcfc;
+    }
+    .topInner2{
+        width: 1200px;
+        height: 150px;
+        margin: -20px auto 0;
+        background: #fcfcfc;
+        padding-bottom: 10px;
+        display: none;
+    }
+    .topInner figcaption{
+        width: 100%;
+        height: 60px;
+        text-indent: 50px;
+        line-height: 60px;
+        font-size: 22px;
+        color: #003a70;
+        font-weight: 600;
+        background: url(../img/t1.png) 20px 20px no-repeat;
+    }
+    .topInner figure{
+        margin-left: 20px;
+    }
+    .topInner figure ul{
+        margin-left: 30px;
+        overflow: hidden;
+    }
+    .topInner figure li{
+    line-height: 40px;
+    font-size: 18px;
+    margin: 10px 0;
+    float: left;
+    overflow: hidden;
+    }
+    .topInner figure li label{
+        width: 110px;
+        float: left;
+        font-size: 18px;
+    }
+    .topInner figure li select{
+        width: 300px;
+        height: 40px;
+        line-height: 40px;
+        padding-right: 0px;
+        font-size: 15px;
+        float: left;
+        text-indent: 10px;
+        color: #606265;
+        outline: none;
+        border:1px solid #ccc;
+        text-indent: 10px;
+    }
+    .topInner figure li input{
+        width: 300px;
+        height: 40px;
+        font-size: 16px;
+        float: left;
+        text-indent: 10px;
+    }
+    .topInner .money{
+        margin-left: 100px;
+    }
+    .topInner .money label{
+        letter-spacing: 33px;
+    }
+    .topInner figure li span{
+        width: 200px;
+        float: right;
+        font-size: 16px;
+        margin-left: 10px;
+        color: #003a70;
+    }
+    .topInner .mail input{
+        width: 30px;
+        height: 30px;
+        margin-top: 5px;
+        background:#fff;
+        border:2px solid #b4b7c0;
+        font-size: 16px;
+    }
+    .topInner .person label{
+        letter-spacing: 10px;
+    }
+    .topInner .MailingAddress{
+        width: 950px;
+        margin-top:15px;
+    }
+    .MailingAddress select,.MailingAddress option{
+        height: 41px;
+        line-height: 41px;
+        width: 130px;
+        font-size: 16px;
+        text-indent: 10px;
+        color: #606265;
+        float: left;
+       
+        border:1px solid #c2c2c2;
+    }
+    #box .MailingAddress input{
+        width: 532px;
+    }
+/* center */
+    .center{
+        width: 100%;
+        position: relative;
+    }
+    .centerInner3{
+        width: 1200px;
+        margin: 0 auto;
+        padding-top: 20px;
+        position: relative;      
+    }
+    .centerInner3 figcaption{
+        width: 100%;
+        height: 60px;
+        margin: 20px 0 20px 0;
+        text-indent: 50px;
+        line-height: 60px;
+        font-size: 22px;
+        font-weight: 600;
+        color: #003a70;
+        background: url(../img/t2.png) 20px 20px no-repeat;
+        overflow: hidden;
+    }
+    .centerInner3 figcaption div{
+        width: 250px;
+        float: left;
+    }
+    #seach{
+        width: 300px;
+        height: 45px;
+        margin-top: 10px;
+        padding: 0px 20px 0px 45px;
+        float: left;
+        border:none;
+        outline: none;
+        font-size: 16px;
+        line-height: 45px;
+        background:#fff url(../img/icon_seach.png) 15px center no-repeat;
+        border-top-left-radius: 3px;
+        border-bottom-left-radius:3px;
+        -webkit-top-left-border-radius: 3px;
+        -moz-top-left-border-radius: 3px;
+        -o-top-left-border-radius:3px;
+        -ms-top-left-border-radius: 3px;
+        -webkit-bottom-left-border-radius: 3px;
+        -moz-bottom-left-border-radius: 3px;
+        -o-bottom-left-border-radius:3px;
+        -ms-bottom-left-border-radius: 3px;
+        behavior:url(../css/PIE.htc);
+    }
+    #search{
+        width: 75px;
+        height: 46px;
+        /* border:1px solid #ccc; */
+        float: left;
+        outline: none;
+        margin-top: 10px;
+        background: #4a79ff;
+        color: #fff;
+        font-size: 16px;
+        text-align: center;
+        line-height: 46px;
+        cursor: pointer;
+    }
+    #search:hover{
+        background: #3857b1;
+    }
+/* map_start */
+    .dot_selection{
+        width:100%;
+        height: 570px;
+        overflow: hidden;
+        position: relative;
+        
+    }
+    .center .doc_innner{
+        width:900px;
+        height: 560px; 
+        background: #fff;
+        box-shadow: 0px 0px 5px 2px #d5d5d5;
+        -moz-box-shadow: 0px 0px 5px 2px #d5d5d5;
+        -webkit-box-shadow: 0px 0px 5px 2px #d5d5d5;
+        box-shadow: 0px 0px 5px 2px  #d5d5d5;
+        filter: progid:DXImageTransform.Microsoft.Shadow(color='#d5d5d5', Direction=5, Strength=2);
+    }
+    .doc_right{
+        display: block;
+        width: 260px;
+        padding:25px 10px;
+        background: #f7fcff; 
+        position: absolute;top: 0;right: 10px;z-index: 33;
+        box-shadow: 0px 0px 5px 2px #d5d5d5;
+        -moz-box-shadow: 0px 0px 5px 2px #d5d5d5;
+        -webkit-box-shadow: 0px 0px 5px 2px #d5d5d5;
+        box-shadow: 0px 0px 5px 2px  #d5d5d5;
+        filter: progid:DXImageTransform.Microsoft.Shadow(color='#d5d5d5', Direction=5, Strength=2); 
+    }
+    .doc_right p{
+        text-indent: 20px;
+        font-size: 18px;
+        line-height: 50px;
+        color: #f03d30;
+        cursor: pointer;
+    }
+    #toggle{
+        padding: 10px;
+       float: right;
+       margin: 10px 10px 0 0;
+    }
+    #toggle:hover{
+        background: #e3efff;
+    }
+    .doc_right li{
+        padding-left: 50px;
+        line-height:40px; 
+        font-size: 16px;
+        color: #0b68e5;
+        cursor: pointer;
+        background: url(../img/t14.png) 24px center no-repeat;
+    }
+    #pagination{
+        /* display: none; */
+        padding-bottom: 20px;
+    }
+    .doc_right li span{
+        width: 20px;
+        height: 40px;
+        line-height: 40px;
+        display: block;
+        float: left;
+        margin: 0 0 0 -24px; 
+        color: #fff;
+        font-size: 14px;
+        text-align: center;
+    }
+    .doc_right li:hover{
+        font-size: 17px;
+    }
+    .doc_right .select{
+        background: #e3efff url(../img/t15.png) 24px center no-repeat;
+    }
+    .cenIn3{
+        width: 600px;
+        height:100px;
+        margin: 50px auto 0;
+        overflow: hidden;
+    }
+    #box .btn{
+        width: 200px;
+        height: 50px;
+        text-align: center;
+        display: block;
+        background: url(../img/t3.png) 0 0;
+        font-size: 18px;
+        color: #fff;
+        outline: none;
+        border:none;
+        margin: 0 auto;
+        border-radius:25px;
+        -webkit-border-radius: 25px;
+        -moz-border-radius: 25px;
+        -o-border-radius:25px;
+        -ms-border-radius: 25px;
+        behavior:url(../css/PIE.htc);
+        position: relative;
+    }
+    #box .btn:hover{
+        letter-spacing: 2px;
+        font-size: 19px;
+    }
+    .btn:hover{
+        cursor: pointer;
+    }
+
+    
+    
+    .topInner2 li:first-child+li{
+        margin-left: 100px;
+    }
+    #box .MailingAddress div{
+        float: left;
+    }
+    #box .MailingAddress textarea{
+        width: 490px;
+        height: 40px;
+        line-height: 40px;
+        font-size: 16px;
+        padding: 0 20px;
+        resize:none;
+    }
+    /* 信用卡申办 */
+   #choice,#choice2{
+    float:left;
+    width:20px;
+    height:20px;
+    margin:10px 0 0 0;
+    border:1px solid #c2c2c2;
+   }
+   #choice img, #choice2 img{
+       display: none;
+   }
+   #box .choiceImg,#box .choiceImg2{
+    border:none;
+   }
+   #box .choiceImg img, #box .choiceImg2 img{
+    display: block;
+   }  
+
+/* center */
+.center{
+    background: url(../img/back2.png) 0 0;
+}
+.topInner{
+    height: 220px;
+}
+.topInner li{
+    width: 50%;
+}
+.top{
+    width: 100%;
+    height: 250px;
+    background: #557ff6 url(../img/back1.png) 0 124px repeat-x;
+}
+/* map_left */
+    
+/* xq */
+
+.xq_right{
+    display: block;
+    width: 280px;
+    height: 560px;
+    position: absolute;top: 0px;right: 10px;z-index: 33;
+    
+}
+.xq_right .xq_return{
+    width: 99%;
+    margin-bottom: 20px;
+    text-indent: 20px;
+    font-size: 18px;
+    line-height: 50px;
+    color: #f03d30;
+    cursor: pointer;
+    background: #f7fcff; 
+    box-shadow: 0px 0px 5px 2px #d5d5d5;
+    -moz-box-shadow: 0px 0px 5px 2px #d5d5d5;
+    -webkit-box-shadow: 0px 0px 5px 2px #d5d5d5;
+    box-shadow: 0px 0px 5px 2px  #d5d5d5;
+    filter: progid:DXImageTransform.Microsoft.Shadow(color='#d5d5d5', Direction=5, Strength=2);
+}
+.xq_dot h3{
+    text-align: center;
+    line-height: 40px;
+    background: #0b68e5;
+    color: #fff;
+}
+.xq_dot{
+    width: 99%;
+    height: 485px;
+    background: #f7fcff; 
+    overflow: hidden;
+    box-shadow: 0px 0px 5px 2px #d5d5d5;
+    -moz-box-shadow: 0px 0px 5px 2px #d5d5d5;
+    -webkit-box-shadow: 0px 0px 5px 2px #d5d5d5;
+    box-shadow: 0px 0px 5px 2px  #d5d5d5;
+    filter: progid:DXImageTransform.Microsoft.Shadow(color='#d5d5d5', Direction=5, Strength=2);
+}
+.xq_right .xq_article{
+    width:90%;
+    height: 380px;
+    overflow: hidden;
+    margin: 0 auto;
+    padding: 10px 0px 30px;
+   
+}
+.xq_right .xq_article div{
+    width: 107%;
+    height: 380px;
+    overflow-y:auto; 
+    
+}
+.xq_right .xq_article div p{
+    line-height: 35px;
+    font-size:16px;
+    color: #606366;
+    text-indent:2em;
+}
+.xq_right .xq_return span{
+    font-size: 16px;
+    line-height: 40px;
+    padding-left:15px;
+    background: url(../img/t28.png) 0 center no-repeat;
+}
+.xq_right .xq_return span:hover{
+    font-size: 18px;
+}
+
+/*dot_choice  */
+
+.dot_choice{
+    height: 100px;
+    overflow: hidden;
+    position: relative;
+}
+.dot_choice select,.dot_choice option{
+    width: 200px;
+    height: 40px;
+    line-height: 40px;
+    border:none;
+    color: #606265;
+    font-size: 15px;
+    padding-left: 10px;
+    margin-right: 20px;
+    
+}
+.dot_choice select{
+    box-shadow: 0px 0px 10px 3px #d5d5d5;
+    -moz-box-shadow: 0px 0px 10px 3px  #d5d5d5;
+    -webkit-box-shadow: 0px 0px 10px 3px #d5d5d5;
+    box-shadow: 0px 0px 10px 3px  #d5d5d5;
+    filter: progid:DXImageTransform.Microsoft.Shadow(color='#d5d5d5', Direction=10, Strength=3); 
+}
+
+
+.search{
+    width: 280px;
+    background: #fff;
+    position: absolute;top: 0px;right: 10px;z-index: 33; 
+    overflow: hidden;
+    box-shadow: 0px 0px 10px 3px #d5d5d5;
+    -moz-box-shadow: 0px 0px 10px 3px  #d5d5d5;
+    -webkit-box-shadow: 0px 0px 10px 3px #d5d5d5;
+    box-shadow: 0px 0px 10px 3px  #d5d5d5;
+    filter: progid:DXImageTransform.Microsoft.Shadow(color='#d5d5d5', Direction=10, Strength=3); 
+}
+.search input{
+    width: 200px;
+    height: 45px;
+    border:none;
+    float: left;
+    font-size: 16px;
+    text-indent: 10px;
+    outline:none;
+}
+.search button{
+    width: 75px;
+    height: 45px;
+    line-height: 45px;
+    float: right;
+    background:#0b68e5 url(../img/search.png) center center no-repeat;
+    outline: none;
+    border: none;
+    cursor: pointer;
+}
+.search button:hover{
+    background:#5492e5 url(../img/search.png) center center no-repeat;
+}
+
+.patch{
+    width: 35px;
+    padding:10px 14px;
+    border:1px solid #ccc;
+    background:#fff;
+    position: fixed;top:50%;right: 10px;z-index: 5;
+    cursor: pointer;
+    color: #ccc;
+}
+.patch:hover{
+    background: #498fe5;
+    color: #fff;
+}
+
+
+
+
+
+
+
+
+@media screen and (max-width: 1200px){
+    .nav_Top{
+        width: 90%;
+    }
+    .topInner{
+        width: 90%;
+    }
+    .centerInner3{
+        width: 95%;
+    }
+    .topInner2 li:first-child+li{
+        margin-left: 0px;
+    }
+    .cenIn3{
+        width: 460px;
+    }
+    .xqImg{
+        left: 10%;
+    }
+    .topInner figure li{
+        float: none;
+    }
+    .topInner .money{
+        margin-left: 0;
+    }
+    .topInner{
+        width: 90%;
+        height: 200px;
+    }
+    .topInner2{
+        height: 350px;
+    }
+    .topInner .MailingAddress{
+        height: 160px;
+        margin-top: -10px;
+        overflow: hidden;
+    }
+    #box .MailingAddress div{
+        float: none;
+        margin-left: 110px;
+        margin-top: 55px;
+        width: 400px;
+    }
+    #box .MailingAddress textarea{
+        width: 255px;
+        height: 80px;
+        padding: 10px 20px;
+    }
+    .MailingAddress select, .MailingAddress option{
+        width: 145px;
+    }
+
+
+
+    #box .topInner{
+        height: 250px;
+    }
+    .topInner li{
+        width: 90%;
+    }
+    #box .topInner2{
+        height: 320px;
+    } 
+
+    .center .doc_innner{
+        width: 70%;
+    }
+}

@@ -1,0 +1,102 @@
+div{
+    overflow: hidden;
+}
+#box{
+    width: 100%;
+}
+.center{
+    width: 100%;
+    /* height: 900px; */
+    padding-bottom: 50px;
+    background: url(../img/back2.png) 0 0;
+    overflow: hidden;
+}
+.inner_business{
+    width: 1200px;
+    margin: 40px auto 30px;
+    background: #fff;
+   
+    overflow: hidden;
+}
+.inn_top{
+    margin:30px 0 30px 40px;
+    line-height: 35px;
+    height: 35px;
+    text-indent: 25px;
+    color: #003a70;
+    font-size: 20px;
+    font-weight: 600;
+    background: url(../img/t25.png) 0 0 no-repeat;
+}
+.inn_tag{
+    width: 90%;
+    margin: 0 auto;
+     padding-bottom: 50px;
+    overflow: hidden;
+}
+.inn_tag li{
+    width: 14%;
+    height: 100%;   
+    float: left;
+}
+.inn_tag li a{
+    width: 100%;
+    height: 100%;
+    display: block;
+    color: #606265;
+}
+.inn_tag li img{
+    margin: 20px auto 10px;
+    display: block;
+}
+.inn_tag .tag{
+    text-align: center;    
+} 
+.inn_tag li:hover{
+    background: #e5f1fe;
+}
+.inn_tag li:hover a{
+    color: #0088cf;
+}
+.inner_process{
+    width: 1200px;
+    margin: 0 auto;
+}
+.inn_pro_img{
+    width: 100%;
+    height: 380px;
+    background: #fff;
+}
+.inn_pro_img img{
+    margin: 85px auto 0px;
+    display: block;
+}
+.pro_fot{
+    width: 900px;
+    margin: 0 auto;
+    overflow: hidden;
+}
+.pro_fot li{
+    width: 25%;
+    height: 40px;
+    line-height: 40px;
+    float: left;
+    text-align: center;
+    color: #4f6172;
+}
+
+
+@media screen and (max-width: 1200px){
+    .inner_business{
+        width: 90%;
+    }
+    .inner_process{
+        width: 90%;
+    }
+    .inn_pro_img img{
+        width: 92%;
+    }
+    .pro_fot{
+        width: 100%;
+    }
+}

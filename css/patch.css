@@ -1,0 +1,106 @@
+html,body{margin: 0;padding: 0;}
+div,p,span,ul,li{
+    margin: 0;padding: 0;
+}
+li{
+    list-style: none;
+}
+a{
+    text-decoration: none;
+}
+#box_patch{
+    width: 100%;
+    height:100%;
+    background: rgba(0, 0, 0, 0.5);
+    filter:progid:DXImageTransform.Microsoft.gradient(startColorstr=#7f000000,endColorstr=#7f000000);  
+    position: fixed;top:0;left:0;z-index: 1000;
+    display: none;
+}
+#patch{
+    width: 1200px;
+    height: 650px;
+    position: absolute;top: 50%;left: 50%;
+    margin-top: -300px;
+    margin-left: -600px;
+    overflow: hidden;
+    background: #fbfbfb;
+}
+#patch .patch_title{
+    width: 100%;
+    height: 50px;
+    line-height: 50px;
+    margin-top: 20px;
+    background: url(../img/t25.png) 30px center no-repeat;
+    font-size: 20px;
+    color: #003a70;
+    font-weight: 500;
+    text-indent: 50px;
+}
+.close_patch{
+    width: 50px;
+    height: 40px;
+    background: #7caff2;
+    float: right;
+    color: #fff;
+    line-height: 40px;
+    text-align: center;
+    font-size: 22px;
+    cursor: pointer;
+
+}
+.close_patch:hover{
+    background: #003a70;
+    color: #fff;
+}
+#patch ul{
+    width: 605px;
+    height: 500px;
+    margin:30px auto 0;
+}
+#patch ul li{
+    float: left;
+    text-align: center;
+    color: #4f6172;
+}
+.patch_n{
+    width: 135px;
+    height: 70px;
+    padding-top: 130px;
+    line-height: 70px;
+    font-size: 16px;
+}
+#patch .patch_sn{
+    width: 578px;
+    height:90px;
+    text-align: right;
+    font-size: 14px; 
+    line-height: 55px;
+    background: url(../img/gs18.png) 530px 10px no-repeat;
+}
+.patch_2n{
+    width: 100px;
+    height: 200px;
+    line-height: 90px;
+    font-size: 14px;
+    background: url(../img/gs17.png) center 60px no-repeat;
+}
+.n1{
+    background: url(../img/gs11.png) center 0 no-repeat;
+}.n2{
+    background: url(../img/gs12.png) center 0 no-repeat;
+}.n3{
+    background: url(../img/gs13.png) center 0 no-repeat;
+}.n4{
+    background: url(../img/gs14.png) center 0 no-repeat;
+}.n5{
+    background: url(../img/gs15.png) center 0 no-repeat;
+}.n6{
+    background: url(../img/gs16.png) center 0 no-repeat;
+}
+
+@media screen and (max-width: 1200px) and (min-width:760px){
+    #patch{
+        width: 95%;
+        margin-left: -48%;
+    }
+}

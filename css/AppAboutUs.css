@@ -1,0 +1,57 @@
+body,div,section,p{
+    margin: 0;padding: 0;border:none;
+}
+a{text-decoration: none;}
+body{
+    width: 100%;
+    background: url(../img/back2.png) 0 0;
+}
+.center{
+    width: 100%;
+}
+.center section{
+    width:98%;
+    height: 100%;
+    margin: 0 auto;
+    overflow: hidden;
+}
+.center .cen_title {
+    margin: 35px auto 0;
+    line-height: 50px;
+    font-size: 20px;
+    font-weight: 600;
+    color: #003a70;
+    text-indent: 50px;
+    background: url(../img/p1.png) 10px center no-repeat;
+    border-bottom: 2px solid #0088cf;
+    overflow: hidden;
+}
+.inner{
+    width: 95%;
+    background: #fff;
+    margin: 40px auto;
+    padding:40px 0px 50px;
+}
+.inner .artice{
+    width: 90%;
+    margin: 0px auto;
+}
+.inner .artice p{
+    line-height: 30px;
+    
+}
+
+/* ----------------about_us------------------- */
+
+.article_p p{
+    text-indent: 2em;
+}
+/* -------------web_statement----------------- */
+.center .web_statement{
+    background: url(../img/p2.png) 10px center no-repeat;
+}
+
+/* -------------------privacy_statement------------ */
+.center .privacy{
+    background: url(../img/p3.png) 10px center no-repeat;
+}

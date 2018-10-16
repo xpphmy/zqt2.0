@@ -1,0 +1,105 @@
+.center{
+    width: 100%;
+    /* padding-bottom: 60px; */
+    background: url(../img/back2.png) 0 0;
+    overflow: hidden;
+}
+.center section{
+    width: 1200px;
+    height: 100%;
+    margin: 0 auto;
+    overflow: hidden;
+}
+
+
+.center .cen_title {
+    margin: 35px auto 0;
+    line-height: 50px;
+    font-size: 20px;
+    font-weight: 600;
+    color: #003a70;
+    text-indent: 70px;
+    background: url(../img/p1.png) 20px center no-repeat;
+    border-bottom: 2px solid #0088cf;
+    overflow: hidden;
+}
+.center .cen_title a{
+    color: #676b6d;
+}
+.center .cen_title a:hover{
+    color: #eb6a02;
+}
+.center .cen_title span{
+    float: right;
+    font-size: 14px;
+    color: #676b6d;
+}
+.inner{
+    width: 100%;
+    min-height: 650px;
+    background: #fff;
+    margin: 40px auto 20px;
+    padding:40px 0px 50px;
+}
+.inner .artice{
+    width: 90%;
+    margin: 0px auto;
+}
+.inner .artice p{
+    line-height: 30px;
+    
+}
+
+/* ----------------about_us------------------- */
+
+.article_p p{
+    text-indent: 2em;
+}
+/* -------------web_statement----------------- */
+.center .web_statement{
+    background: url(../img/p2.png) 20px center no-repeat;
+}
+
+/* -------------------privacy_statement------------ */
+.center .privacy{
+    background: url(../img/p3.png) 20px center no-repeat;
+}
+/* ---------------------file_Printing------------------------- */
+
+.center .filePrinting{
+    background: url(../img/p4.png) 20px center no-repeat;
+}
+.print{
+    width: 200px;
+    height: 50px;
+    line-height: 50px;
+    text-align: center;
+    display: block;
+    background: url(../img/t3.png) 0 0;
+    font-size: 18px;
+    color: #fff;
+    outline: none;
+    border: none;
+    margin: 50px auto 70px;
+    border-radius: 25px;
+    -webkit-border-radius: 25px;
+    -moz-border-radius: 25px;
+    -o-border-radius: 25px;
+    -ms-border-radius: 25px;
+    behavior: url(../css/PIE.htc);
+    cursor: pointer;
+    letter-spacing: 2px;
+} 
+.print:hover{
+    font-size: 19px;
+}
+
+
+
+
+@media screen and (max-width: 1200px){
+    .center section{
+        width: 90%;
+    }
+   
+}

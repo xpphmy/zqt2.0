@@ -1,0 +1,19 @@
+// 分页
+$('.page1').createPage(function(n){
+    console.log(n);
+},{
+    pageCount:10,//总页码,默认10
+    showPrev:true,//是否显示上一页按钮
+    showNext:true,//是否显示下一页按钮
+    showTurn:true,//是否显示跳转,默认可以
+    showNear:1,//显示当前页码前多少页和后多少页，默认2
+    showSumNum:false//是否显示总页码
+},{
+    //"width":550,//页码盒子总宽度
+    "pageWidth":30,
+    "height":30,//页码总高度，默认20px
+    "currentColor":"#fff",//当前页码的字体颜色
+    'borderRadius':5,
+    "prevNextWidth":30,//上页下页的宽度
+	"pagecountWidth":30//共计多少页的宽度
+});

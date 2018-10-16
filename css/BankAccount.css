@@ -1,0 +1,65 @@
+.center{
+    overflow: hidden;
+}
+#next{
+    width: 200px;
+    height: 50px;
+    text-align: center;
+    display: block;
+    background: url(../img/t3.png) 0 0;
+    font-size: 18px;
+    color: #fff;
+    outline: none;
+    border:none;
+    margin: 70px auto;
+    border-radius:25px;
+    -webkit-border-radius: 25px;
+    -moz-border-radius: 25px;
+    -o-border-radius:25px;
+    -ms-border-radius: 25px;
+    behavior:url(../css/PIE.htc);
+    position: relative;
+}
+#next:hover{
+    letter-spacing: 2px;
+    font-size: 19px;
+}
+#next:hover{
+    cursor: pointer;
+}
+.xqInner{
+    width:1200px;
+    position: absolute;top: 50%;left:50%;z-index: 999;
+    height: 700px;
+    margin-top:-350px;
+    margin-left: -600px;
+    background: #fff;
+    box-shadow: 0px 0px 5px 2px rgba(213,213,213,1);
+    -moz-box-shadow:0px 0px 5px 2px #d5d5d5;
+    -webkit-box-shadow:0px 0px 5px 2px #d5d5d5;
+    -o-box-shadow:0px 0px 5px 2px #d5d5d5;
+    filter: progid:DXImageTransform.Microsoft.Shadow(color='#d5d5d5', Direction=5, Strength=2); 
+    display: none;
+}
+
+#box .cenIn3{
+    width: 400px;
+    overflow: hidden;
+    display: none;
+}
+#box #prev{
+    border: none;
+    background: none;
+    outline: none;
+    float: left;
+    color: #6b7882;
+    font-size: 18px;
+    cursor: pointer;
+}
+#box #prev:hover{
+    font-size: 20px;
+    color: #41aef7;
+}
+#box .btn{
+    float: right;
+}

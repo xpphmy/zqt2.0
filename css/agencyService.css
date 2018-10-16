@@ -1,0 +1,441 @@
+*{
+    margin: 0 ;padding: 0;
+}
+#box{
+    color: #606265;
+}
+input{
+    color: #606265;
+    line-height: 45px;
+}
+ul,li{
+    list-style: none;    
+}
+input{
+    border:1px solid #c2c2c2;;
+}
+
+/* top */
+.top{
+    width: 100%;
+    background-color: #4a79ff;
+    background-image: url(../img/back1.png);
+    background-position:0px bottom;
+    background-repeat:repeat-x;
+    padding: 45px 0 70px;
+}
+.top_center{
+    width: 1200px;
+    margin: 0 auto;
+    overflow: hidden;
+}
+.top_left{
+    width: 60px;
+    height: 254px; 
+    float: left;
+}
+.top_right{
+    float: right;
+}
+.top_left_inner{
+    width: 22px;
+    padding: 15px 19px;
+    height: 97px;
+    font-size: 22px;
+    line-height: 22px;
+    text-align: center;
+    font-weight: 500;
+    text-decoration: none;
+    display: block;
+    background: #365dcc;
+    color: #fff;
+}
+.top_left_select{
+    color: #365dcc;
+    background: #fff;
+}
+.top_left_select0:hover{
+    background: #3a67e7;
+    color: #fff;
+}
+.topInner{
+    width: 1100px;
+    padding-bottom: 50px; 
+    background: #fcfcfc;
+    float: right;
+}
+.topInner figcaption{
+    width: 100%;
+    height: 60px;
+    text-indent: 60px;
+    line-height: 60px;
+    font-size: 28px;
+    color: #003a70;
+    background: url(../img/icon12.png) 20px 20px no-repeat;
+}
+.topInner figure{
+    margin-left: 30px;   
+}
+.topInner figure ul{
+    overflow: hidden;
+}
+.topInner figure li{
+    width: 500px;
+    line-height: 40px;
+    margin: 10px 0 10px 30px;
+    float: left;
+}
+.topLiAdd{
+    overflow: hidden;
+    margin-bottom:20px;
+}
+.show{
+    width: 400px;
+    height: 100px;
+    margin: 10px 0 0 10px;
+    display: none;
+}
+#box .show div{
+    width: 450px;
+    height: 40px;
+    margin: 5px 0;
+}
+#box .show label{
+    width: 85px;
+    font-size: 16px;
+}
+#box .show span{
+    /* width: 80px; */
+    height: 32px;
+    padding-right: 15px;
+    line-height: 30px;
+    font-size: 14px;
+    margin: 5px 2.5px;
+    border:1px solid #c2c2c2;
+}
+.topInner figure label{
+    width: 90px;
+    float: left;
+    font-size: 20px;
+}
+.topInner .topLiAdd span button{
+    width: 100%;
+    /* height: 40px; */
+    margin: 0 auto;
+    padding: 0 20px;
+    line-height: 40px;
+    text-align: center;
+    display: block;
+    border:1px solid #c2c2c2;
+    outline: none;
+    background:#fff;
+    font-size: 16px;
+    color: #606265;
+}
+.topInner figure span{
+    margin: 0 5px;
+    text-align: center;
+    display: block;
+    float: left;
+    
+}
+.Address select,.Address option{
+    height: 40px;
+    line-height: 40px;
+    width: 100px;
+    font-size: 16px;
+    text-indent: 10px;
+    color: #606265;
+    float: left;
+    margin-right: 10px;
+    border:1px solid #c2c2c2;
+}
+#box .time label{
+    width: 150px;
+}
+#box .time input,#box .money input{
+    width: 200px;
+    height: 40px;
+    float: left;
+    text-indent: 20px;
+    font-size: 16px;
+}
+#box .money span{
+    width: 120px;
+    border:none;
+}
+
+/* center */
+/* .center{
+    width:100%;
+    height: 100px;
+    margin: 0 auto;
+    background: #e9ebf0;
+    position: relative;
+} */
+.centerInner1{
+    margin: 40px auto 0;
+    padding-bottom: 10px;
+    
+}
+.centerInner1 figcaption{
+    width: 100%;
+    height: 60px;
+    text-indent: 70px;
+    line-height: 60px;
+    font-size: 28px;
+    color: #003a70;
+    background: url(../img/icon13.png) 20px 20px no-repeat;
+    overflow: hidden;
+}
+.centerInner1 figcaption span{
+    float: left;
+}
+.centerInner1 input{
+    width: 30px;
+    height: 30px;
+    float: left;
+    margin: 15px 0 0 20px;
+}
+/* center_figure */
+    .cenInner{
+        display: none;
+    }
+    .cenInner figure{
+        margin-left: 40px;
+    }
+    .cenInner figure ul{
+        margin-left: 30px;
+        overflow: hidden;
+    }
+    .cenInner figure li{
+        width: 500px;
+        line-height: 40px;
+        font-size: 20px;
+        margin: 10px 0;
+        float: left;
+        overflow: hidden;
+    }
+    .cenInner figure li label{
+        width: 90px;
+        float: left;
+    }
+    .cenInner figure li input{
+        width: 300px;
+        height: 40px;
+        font-size: 16px;
+        float: left;
+        text-indent: 10px;
+    }
+    .cenInner .person label{
+        letter-spacing: 10px;
+    }
+    .cenInner .MailingAddress{
+        width: 950px;
+        margin-top:15px;
+    }
+    .MailingAddress select,.MailingAddress option{
+        height: 37px;
+        line-height: 35px;
+        width: 120px;
+        font-size: 16px;
+        text-indent: 10px;
+        color: #606265;
+        float: left;
+        margin-right: 0px;
+        border:1px solid #c2c2c2;
+    }
+    .MailingAddress div textarea{
+    border:1px solid #c2c2c2;
+    }
+    #box .MailingAddress input{
+        width: 532px;
+    }
+    #box .MailingAddress div{
+        float: left;
+    }
+    #box .MailingAddress textarea{
+        width: 500px;
+        height: 40px;
+        line-height: 40px;
+        font-size: 16px;
+        padding: 0 10px;
+        resize:none;
+    }
+/* center_xq */
+    .cenInner1{
+        width: 600px;
+        height: 100px;
+        padding-top: 60px;
+        margin: 0 auto;    
+    }
+    .center .xq{
+        width: 75px;
+        color: #1599f4;
+        font-size: 24px;
+        line-height: 80px;
+        letter-spacing: 2px;
+        float: left;
+        background: url(../img/icon1.png) center right no-repeat;   
+    }
+    .center .xq:hover{
+        font-size: 28px;
+        cursor: pointer;
+    }
+    .cenInner1 .btn{
+        width: 200px;
+        height: 50px;
+        text-align: center;
+        display: block;
+        margin: 0 auto;
+        /* float: right; */
+        background: url(../img/t3.png) 0 0;
+        font-size: 20px;
+        color: #fff;
+        border-radius:10px;
+        outline: none;
+        border:none;
+    }
+    .cenInner1 .btn:hover{
+        cursor: pointer;
+        font-size: 22px;
+        letter-spacing: 5px;
+    }
+    .center2{
+        width: 100%;
+        height: 320px;
+        background: #e9ebf0;
+        padding: 20px 0px ;
+    }
+    .cen2Inner{
+        width: 1200px;
+        height: 300px;
+        margin: 0 auto;
+        overflow: hidden;
+    }
+    .cen2Inner li{
+        width: 25%;
+        height: 250px;
+        float: left;
+    }
+    .cen2Inner li:first-child{
+        background: url(../img/icon14.png) center center no-repeat;
+    }
+    .cen2Inner li:first-child+li{
+        background: url(../img/icon15.png) center center no-repeat;
+    }
+    .cen2Inner li:first-child+li+li{
+        background: url(../img/icon16.png) center center no-repeat;
+    }
+    .cen2Inner li:first-child+li+li+li{
+        background: url(../img/icon17.png) center center no-repeat;
+    }
+    .cen2Inner li span{
+        display: block;
+        text-align: center;
+        margin: 0 auto;
+    }
+    .cen2Inner li span:first-child{
+        margin-top: 190px;
+        font-size:24px;
+        color: #4f6172;
+        line-height: 50px;
+    }
+    .cen2Inner li span:first-child:span{
+        line-height: 40px;
+        font-size:18px;
+        color: #929eab;
+    }
+    #box .TypeService{
+        border:none;
+        color: #fff;
+        background: #5ebaf3;
+    }
+    #box .topLiAdd span button:hover{
+        border:none;
+        color: #fff;
+        background: #5ebaf3;
+        cursor: pointer;
+    }
+    #box .top .Type_of_Service{
+        border:1px solid #5ebaf3;
+    }
+    #box .Type_of_Service button{
+        color: #afdaf5; 
+    }
+    .show span button{
+        /* width: 100%; */
+        padding-left:15px;
+        text-align: center;
+        background:#fff;
+        color: #606265;
+        line-height: 30px;
+        border:none;
+        
+        outline: none;
+        cursor: pointer;
+    }
+    #box #show{
+        display: block;
+    }
+    .show span{
+        position: relative;
+    }
+    #box .show .close{
+        width: 10px;
+        height: 10px;
+        position: absolute;top: 0px;right: 0px;z-index: 999;
+        background:url(../img/icon18.png) 0 0 no-repeat;
+        display: none;
+        cursor: pointer;
+        border:none;
+    }
+
+
+
+
+@media screen and (max-width: 1200px){
+    .nav_Top{
+        width: 90%;
+    }
+    .top_center{
+        width: 90%;
+    }
+    .top_left{
+        width: 50px;
+        line-height: 50px;
+    }
+    .topInner{
+        width: 90%;
+    }
+    .center{
+        width: 85%;
+        padding-left:5%;
+    }
+    .cen2Inner{
+        width: 90%;
+    }
+    .cenInner .MailingAddress{
+        height: 160px;
+        margin-top: 10px;
+        overflow: hidden;
+    }
+    #box .MailingAddress div{
+        float: none;
+        margin-left: 90px;
+        margin-top: 55px;
+        width: 400px;
+    }
+    #box .MailingAddress textarea{
+        width: 280px;
+        height: 80px;
+        padding: 10px;
+    }
+    .MailingAddress select, .MailingAddress option{
+        width: 145px;
+    } 
+    
+    .xqImg{
+        top: 180px;left: 150px;
+    }
+}

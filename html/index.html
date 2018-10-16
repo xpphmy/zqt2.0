@@ -1,0 +1,213 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>政企通服务平台</title>
+    <!-- Demo styles -->
+    <link rel="stylesheet" href="../css/index.css">
+    <link rel="Shortcut Icon" href="../img/logo4.png"/>
+    <link rel="stylesheet" href="../css/topfooter.css">
+    <script src="../js/jquery-1.8.0.min.js"></script>
+    <!--[if IE]>
+        <script src="../js/html5shiv.min.js"></script>
+    <![endif]-->
+    <!--[if lte IE 9]>  
+     <script src="../js/jquery.placeholder.js"></script>  
+     <script>  
+        $(function(){  
+            $('input[placeholder]').placeholder();  
+        });  
+     </script>  
+    <![endif]--> 
+</head>
+<body>  
+    <div id="box">
+        <nav>
+            <div class="title">
+                <a href="../html/index.html">欢迎来到政企通服务平台！</a>
+                <span class="btn_top">退出</span>
+                <span>18888888888用户</span> 
+            </div>
+        </nav>
+        <div class="top_right">重大消息：政企通携手政务机构，助力打造一站式线上服务！！！</div>
+        <div class="center">
+            <section class="inner">
+                <div class="left">
+                    <ul>
+                        <li class="pic1"><a href="../html/business.html">工商登记</a></li>
+                        <li class="pic2"><a href="../html/engravedChapter.html">公安刻章</a></li>
+                        <li class="pic3"><a href="../html/BankAccount.html">银行开户</a></li>
+                        <li class="pic4"><a href="../html/tax.html">税务财会</a></li>
+                        <!-- <li class="pic5"><a href="#">社会保险</a></li>
+                        <li class="pic6"><a href="#">公积金</a></li> -->
+                        <li class="pic7"><a href="#">网上竞标</a></li>
+                        <li class="pic8"><a href="../html/agencyService.html">代办业务</a></li>
+                        <li class="pic9"><a href="../html/lawyersAffairs.html">律师事务</a></li>
+                        <li class="pic11"><a href="">档案打印</a></li>
+                        <li class="pic12"><a href="../html/admission.html">我要入驻</a></li>
+                        <li class="pic13"><a href="../html/authorize.html">我要授权</a></li>
+                        <li class="pic10"><a href="../html/PersonalCenter.html">更多</a></li>
+                    </ul>
+                </div>
+            <!-- 密码登录 -->
+                <div class="right show1">
+                    <div class="qr_code" id="qr_password"><img src="../img/pic10.png" alt="扫码登陆" title="扫码登陆"></div>
+                    <p class="right_title sign_in">
+                        <span class="pass_sign">密码登录</span>
+                        <span class="ukey_sign">Ukey登录</span>
+                    </p>
+                    <form action="#" method="post" class="pass_sign_in">
+                        <ul>
+                            <li class="name">
+                                <input type="text" placeholder="请输入您的手机号">
+                            </li>
+                            <li class="password">
+                                <input type="password" placeholder="请输入您的密码">
+                            </li>
+                            <li class="right_in">
+                                <a href="../html/logo_v2.html" target="_blank">免费注册</a>
+                                <a href="../html/logo_v3.html" target="_blank">忘记密码</a>
+                            </li>
+                            <li>
+                                <input type="button" value="登录" class="btn">
+                            </li>
+                        </ul>
+                    </form>
+                    <!-- Ukey_sign_in -->
+                    <div class="ukey_sign_in" style="display:none;">
+                        <button class="ukey">Ukey登录</button>
+                        <button class="updown">小精灵下载</button>
+                    </div>
+                </div>
+            <!--Ukey_sign_in  -->
+                <div class="right show_ukey">
+                    <p class="right_title sign_in">
+                        <span class="pass_sign">密码登录</span>
+                        <span class="ukey_sign">Ukey登录</span>
+                    </p>
+                    <div class="binding">您还没有绑定手机号，请<span class="binding_num">绑定</span>!</div>
+                </div>
+            <!--Ukey_sign_in  -->
+                <div class="right message">
+                    <p class="right_title ">完善信息</p>
+                    <ul>
+                        <li><input type="text" value="" placeholder="请输入您的用户名"></li>
+                        <li><input type="text" value="" placeholder="请输入您的手机号"></li>
+                        <li class="num_code">
+                            <input class="val" type="button" value="获取验证码" onclick="clickButton(this)">
+                            <input type="text" placeholder="请输入验证码" class="textMember">
+                        </li>  
+                    </ul>
+                    <input type="button" value="绑定" class="phone_bd">
+                </div>
+            <!-- number -->
+                <div class="right phone">
+                    <p class="right_title ">选择用户</p>
+                    <div class="phone_num">
+                        <ul>
+                            <li>15826485986</li>
+                            <li>15826485986</li>
+                            <li>15826485986</li>
+                            <li>15826485986</li>
+                            <li>15826485986</li>
+                            <li>15826485986</li>
+                            <li>15826485986</li>  
+                        </ul> 
+                    </div>
+                    
+                </div>
+            <!-- 扫码登录 -->
+                <div class="right show2" style="display:none">
+                    <div class="qr_code" id="qr_code"><img src="../img/pic17.png" alt="密码登录" title="密码登录"></div>
+                    <p class="right_title">扫码登录</p>
+                    <div class="scancode">
+                        <img src="../img/registered.png" alt="扫码登录" title="扫码登录">
+                        <p>请打开客户端"扫一扫"</p>
+                    </div>
+                    <div class="registered">还没有账号？<a href="../html/logo_v2.html" target="_blank">立即注册！</a></div> 
+                </div>
+            <!--办理动态，新闻消息  -->
+                <div class="right show3" id="news" style="display:none">
+                    <div class="newstitle">办理动态</div>
+                    <div class="newss" id="demo">
+                        <ul id="demo1">
+                            <li>
+                                <span class="dynamic newsred">已刻章</span>
+                                <span>多啦传网络科技有限公司</span>
+                            </li>
+                            <li>
+                                <span class="dynamic newsblue">已开户</span>
+                                <span>舍得网络科技有限公司</span>
+                            </li>
+                            <li class="newss_list swiper-slide">
+                                <span class="dynamic newsgreen">已审阅</span>
+                                <span>蓝靛影音设备有限公司</span>
+                            </li>
+                            <li class="newss_list swiper-slide">
+                                <span class="dynamic newsblue">已开户</span>
+                                <span>舍得网络科技有限公司</span>
+                            </li>
+                            <li class="newss_list swiper-slide">
+                                <span class="dynamic newsgreen">已审阅</span>
+                                <span>蓝靛影音设备有限公司</span>
+                            </li>
+                            <li class="newss_list swiper-slide">
+                                <span class="dynamic newsgreen">已审阅</span>
+                                <span>蓝靛影音设备有限公司</span>
+                            </li>
+                            <li class="5newss_list swiper-slide">
+                                <span class="dynamic newsblue">已开户</span>
+                                <span>舍得网络科技有限公司</span>
+                            </li>
+                            <li class="newss_list swiper-slide">
+                                <span class="dynamic newsred">已刻章</span>
+                                <span>多啦传网络科技有限公司</span>
+                            </li>
+                            <li class="newss_list swiper-slide">
+                                <span class="dynamic newsred">已刻章</span>
+                                <span>多啦传网络科技有限公司</span>
+                            </li>
+                            <li class="newss_list swiper-slide">
+                                <span class="dynamic newsblue">已开户</span>
+                                <span>舍得网络科技有限公司</span>
+                            </li>
+                            <li class="newss_list swiper-slide">
+                                <span class="dynamic newsred">已刻章</span>
+                                <span>多啦传网络科技有限公司</span>
+                            </li>                                       
+                        </ul>
+                        <ul id="demo2"></ul> 
+                    </div>
+                </div>
+            <!-- right——end -->
+            </section>
+        </div> 
+        <!-- footer -->
+        <section class="footer">
+            <div class="bottom">
+                <div class="botImg">
+                    <img src="../img/weixin.png" alt="">
+                    <p>公众号二维码</p>
+                </div>
+                <div class="bottom_right">
+                    <p><span>主办单位：河南省政企通有限公司</span><span>承办单位：河南省政企通有限公司</span></p>
+                    <p><span>联系电话：0371-96596</span></span><span>备案：豫ICP备18011154号</span></p>
+                    <p>Copyright © 2018 hnszqt.com</p>
+                </div>
+                <ul>
+                    <li><a href="../html/download.html">下载中心</a></li>
+                    <li><a href="../html/aboutUs.html">关于我们</a></li>
+                    <li><a href="../html/contacts.html">联系我们</a></li>
+                    <li><a href="../html/webStatement.html">网站声明</a></li>
+                    <li><a href="../html/privacy.html">隐私声明</a></li>
+                </ul>
+            </div>
+        </section> 
+    </div>
+</body>
+<script type="text/javascript" src="../js/byClass.js"></script>
+<script type="text/javascript" src="../js/animatext.min.js"></script>
+<script type="text/javascript" src="../js/index.js"></script>
+</html>

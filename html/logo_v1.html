@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>河南省政企通</title>
+    <link rel="Shortcut Icon" href="../img/logo4.png"/>
+    <link rel="stylesheet" href="../css/logo_v1.css">
+    <script src="../js/jquery-1.8.0.min.js"></script>
+    <!--[if IE]>
+        <script src="../js/html5shiv.min.js"></script>
+    <![endif]-->
+    <!--[if lte IE 9]>  
+     <script src="../js/jquery.placeholder.js"></script>  
+     <script>  
+        $(function(){  
+            $('input[placeholder]').placeholder();  
+        });  
+     </script>  
+    <![endif]--> 
+</head>
+<body>
+    <div id="box">
+    <!-- nav -->
+        <nav>
+            <div class="nav_Top"></div>   
+        </nav>
+    <!-- center -->
+        <section class="center">
+            <div class="inner">
+               <div class="center_header">
+                   <img src="../img/logo3.png" alt="" style="width:100px;height:30px;margin: 20px 0 0 275px">
+                </div>    
+                <div class="center_inner">
+                    <p id="ceInner_p">
+                        <span class="select">密码登录</span>
+                        <span>扫码登录</span>
+                    </p>
+                    <div id="liShow" class="show">
+                        <ul>
+                            <li class="icon7">
+                                <span><img src="../img/icon7.png" alt=""></span>
+                                <input class="inputs" type="text" placeholder="请输入您的手机号">     
+                            </li>
+                            <li class="icon8">
+                                <span><img src="../img/icon8.png" alt="" style="width:20px;"></span>
+                                <input class="inputs" type="text" placeholder="请输入密码">     
+                            </li>    
+                        </ul>
+                        <div id="textRed" style="width:420px;margin:-10px auto 0;height:25px;color:red;">请输入密码</div> 
+                        <div class="cenInner">
+                            <a href="../html/logo_v2.html"><span>免费注册</span></a>
+                            <a href="../html/logo_v3.html"><span>忘记密码</span></a>  
+                        </div>
+                        <div class="btn"><button>登录</button></div>
+                    </div>
+                    <div class="ScanCode show">
+                        <div class="ScanCodeImg">
+                            <img src="../img/weixin.png" alt="">
+                            <div>请打开微信客户端"扫一扫"</div>
+                        </div> 
+                        <div class="selCode"><a href="../html/logo_v2.html">立即注册</a></div>
+                    </div>
+                </div>
+                <div class="cen_In_Img"><img src="../img/background0.png" alt=""></div>
+            
+            
+            </div>
+        </section> 
+    </div>
+</body>
+<script type="text/javascript" src="../js/byClass.js"></script>
+<script type="text/javascript" src="../js/titleScroll.js"></script>
+<script type="text/javascript" src="../js/js_tab.js"></script>
+<script type="text/javascript">
+// tab切换
+    var spans=document.getElementById("ceInner_p").getElementsByTagName("span");
+	var shows=document.getElementsByClassName("show");
+	spans[0].onclick=function(){
+		spans[0].className="select";
+		shows[0].id="liShow";
+		spans[1].className="";
+		shows[1].id="";
+	}
+	spans[1].onclick=function(){
+		spans[1].className="select";
+		shows[1].id="liShow";
+		spans[0].className="";
+		shows[0].id="";
+    }
+</script>   
+</html>

@@ -1,0 +1,37 @@
+//设置_弹窗效果
+$(document).ready(function(){
+	$(".SetUp").click(function(){
+		$(".TBox").slideToggle("slow");
+	});
+});
+$(document).ready(function(){
+    $(".tBoxIn1").click(function(){
+      $(".TBox").slideUp("slow");
+    });
+});
+$(".btnRight").toggle(
+    function(){
+        $(this).attr("id","TBoxBtn");
+    },
+    function(){
+        $(this).removeAttr("id","TBoxBtn");
+    }
+);
+
+// 分页
+$('.page3').createPage(function(n){
+    console.log(n);
+},{
+    pageCount:100,//总页码,默认10
+    showPrev:true,//是否显示上一页按钮
+    showNext:true,//是否显示下一页按钮
+    showTurn:true,//是否显示跳转,默认可以
+    showNear:1,//显示当前页码前多少页和后多少页，默认2
+    showSumNum:false//是否显示总页码
+},{
+    //"width":550,//页码盒子总宽度
+    "pageWidth":40,
+    "height":40,//页码总高度，默认20px
+    "currentColor":"#fff",//当前页码的字体颜色
+    'borderRadius':10
+});

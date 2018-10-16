@@ -1,0 +1,196 @@
+body{
+    background: #edf1f6;
+    color: #464b52;
+}
+.center{
+    width: 1200px;
+    height: 800px;
+    margin: 40px auto 140px;
+    background: #f9f9f9;
+}
+.center .center_top{
+    font-size: 28px;
+    color: #003a70;
+    line-height: 50px;
+    width: 95%;
+    margin: 20px auto;
+    text-indent: 30px;
+    border-bottom: 2px solid #629ae5;
+}
+.cenTopMoney{
+    font-size: 18px;
+    color: #003a70;
+    line-height: 50px;
+    margin-left: 40px;
+}
+.cenTopMoney big{
+    margin: 0 5px;
+    color: #eb0042;
+}
+.cenInner{
+    width: 95%;
+    height: 100px;
+    margin: 0 auto;
+    background: #fff;
+    overflow: hidden;
+    padding: 10px 0px;
+}
+.cenInner span{
+    line-height: 100px;
+    float: left;
+    margin: 0 20px 0 30px;
+    font-size: 20px;
+}
+.cenInner .tabImg{
+    height: 70px;
+    line-height: 70px;
+    margin: 20px 20px 0 0;
+    float: left;
+    cursor: pointer;
+}
+.cen_main{
+    width: 90%;
+    height: 450px;
+    padding: 20px 2.5%;
+    margin: 20px auto;
+    background: #fff;
+    display: none;
+}
+.cen_main figcaption{
+    font-size: 22px;
+}
+.cen_main_ma{
+    width: 100%;
+    height: 400px;
+    overflow: hidden;
+}
+.cenLeft,.cenRight{
+    float: left;
+}
+.cenLeft{
+    width: 50%;
+}
+.cenLeft .wexin{
+    width: 300px;
+    height: 300px;
+    margin:30px auto 0;
+}
+.cenLeft .wexin img{
+    width: 100%;
+    height: 100%;
+}
+.cenRight{
+    width: 40%;
+    text-align: center;
+}
+.cenRight p,.cenLeft p{
+    font-size: 32px;
+    margin: 110px auto 30px;
+}
+.cenRight p big,.cenLeft p big{
+    color: #eb0042;
+}
+.cenRight div,.cenLeft div{
+    font-size: 20px;
+}
+#cen_main{
+    display: block;
+}
+.balance{
+    width: 80%;
+    margin: 0 auto;
+}
+.balance button{
+    width: 180px;
+    height: 50px;
+    line-height: 50px;
+    text-align: center;
+    margin: 110px auto 0px;
+    display: block;
+    font-size: 20px;
+    color: #fff;
+    background: url(../img/t3.png) -45px 0 repeat-y;
+    border:none;
+    outline: none;
+    cursor: pointer;
+    position: relative;
+    border-radius:12px;
+    -webkit-border-radius: 12px;
+    -moz-border-radius: 12px;
+    -o-border-radius: 12px;
+    -ms-border-radius: 12px;
+    behavior: url(../css/PIE.htc);
+}
+
+
+
+
+
+
+
+
+
+/* 支付成功 */
+.inner{
+    width: 95%;
+    margin: 20px auto;
+    height: 300px;
+    padding-top: 50px;
+    background: #fff;
+}
+.inner img{
+    width: 70px;
+    height: 70px;
+    display: block;
+    margin: 0 auto;
+}
+.inner p{
+    text-align: center;
+}
+.inner .pay1{
+    color: #eb0042;
+    font-size: 20px;
+    line-height: 50px;
+}
+.inner .pay2{
+    font-size: 18px;
+    line-height: 40px;
+}
+.inner .pay3{
+    width: 300px;
+    overflow:hidden;
+    margin: 0 auto;
+}
+.inner .pay3 a{
+    display: block;
+    width: 100px;
+    height: 40px;
+    line-height: 40px;
+    float: left;
+    background: #629ae5;
+    margin-left: 30px;
+    color: #fff;
+    border-radius: 8px;
+  -webkit-border-radius: 8px;
+  -moz-border-radius: 8px;
+  -o-border-radius: 8px;
+  -ms-border-radius: 8px;
+  position: relative;
+  behavior: url(../css/PIE.htc);
+}
+.inner .pay3 .ck{
+    background: #d8e0e6;
+    color: #464b52;
+}
+.inner .pay3 a:hover{
+    background: #2b68ba;
+    color: #fff;
+}
+@media screen and (max-width: 1200px){
+    .nav_Top{
+        width: 95%;
+    }
+    .center{
+        width: 100%;
+    }
+}

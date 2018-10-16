@@ -1,0 +1,187 @@
+select {
+    /*Chrome和Firefox里面的边框是不一样的，所以复写了一下*/
+    border: solid 1px #000;
+
+    /*很关键：将默认的select选择框样式清除*/
+    appearance:none;
+    -moz-appearance:none;
+    -webkit-appearance:none;
+
+    /*在选择框的最右侧中间显示小箭头图片*/
+    background:#fbfdfe url("../img/t06.png") no-repeat scroll right center ;
+    /*为下拉小箭头留出一点位置，避免被文字覆盖*/
+    padding-right: 0px;
+}
+
+
+    /*清除ie的默认选择框样式清除，隐藏下拉箭头*/
+select::-ms-expand { display: none; }
+
+
+/* -------------main-------------------------------------------- */
+#box{
+    color: #606265;
+}
+.center{
+    width: 100%;
+    height: 1000px;
+    background: url(../img/back2.png) 0 0;
+    overflow: hidden;
+}
+
+.inner{
+    width: 90%;
+    padding-bottom: 50px;
+    max-width: 1200px;
+    min-height: 600px;
+    margin: 100px auto;
+    background: #fff;
+    box-shadow: 0px 0px 5px 2px #e3e6e8;
+    -moz-box-shadow:0px 0px 5px 2px #e3e6e8;
+    -webkit-box-shadow:0px 0px 5px 2px #e3e6e8;
+    -o-box-shadow:0px 0px 5px 2px #e3e6e8;
+    filter: progid:DXImageTransform.Microsoft.Shadow(color='#e3e6e8', Direction=5, Strength=2); 
+}
+#box .cenIn3{
+    width: 400px;
+    height: 200px;
+    margin:50px auto;
+    overflow: hidden;
+}
+#box #prev{
+    line-height: 45px;
+    border: none;
+    background: none;
+    outline: none;
+    float: left;
+    color: #6b7882;
+    font-size: 18px;
+    cursor: pointer;
+}
+#box .btn {
+    width: 200px;
+    height: 50px;
+    text-align: center;
+    display: block;
+    background: url(../img/t3.png) 0 0;
+    font-size: 18px;
+    color: #fff;
+    outline: none;
+    border: none;
+    margin: 0 auto;
+    border-radius: 25px;
+    -webkit-border-radius: 25px;
+    -moz-border-radius: 25px;
+    -o-border-radius: 25px;
+    -ms-border-radius: 25px;
+    behavior: url(../css/PIE.htc);
+    position: relative;
+    float: right;
+    cursor: pointer;
+}
+
+
+
+/* table */
+.cen_in{
+    width: 100%;
+    position: absolute;top:20px;left: 0;z-index: 3;
+}
+
+.center{
+    position: relative;
+}
+.cen_top{
+    width: 100%;
+    height: 260px;
+    position: absolute;top: 0;left: 0;z-index: 2;
+    background:#557ff6 url(../img/back1.png) 0 bottom repeat-x;
+}
+.next{
+    width: 200px;
+    height: 50px;
+    text-align: center;
+    display: block;
+    background: url(../img/t3.png) 0 0;
+    font-size: 18px;
+    color: #fff;
+    outline: none;
+    border: none;
+    margin: 70px auto;
+    border-radius: 25px;
+    -webkit-border-radius: 25px;
+    -moz-border-radius: 25px;
+    -o-border-radius: 25px;
+    -ms-border-radius: 25px;
+    behavior: url(../css/PIE.htc);
+    cursor: pointer;
+}
+.inner figcaption {
+    width: 100%;
+    height: 60px;
+    padding:30px 0px 10px;
+    margin-left:50px;
+    text-indent: 50px;
+    line-height: 60px;
+    font-size: 22px;
+    color: #003a70;
+    font-weight: 600;
+    background: url(../img/t34.png) 20px 50px no-repeat;
+}
+.inner figure{
+    overflow: hidden;
+}
+.inner figure ul{
+    overflow: hidden;
+    margin-left: 50px;
+}
+.inner figure ul li{
+    line-height: 40px;
+    font-size: 18px;
+    margin: 10px 30px;
+    float: left;
+    overflow: hidden;
+}
+.inner figure li span{
+    width: 110px;
+    float: left;
+    font-size: 18px;
+}
+.inner figure li select{
+    width: 300px;
+    height: 40px;
+    line-height: 40px;
+    padding-right: 0px;
+    font-size: 15px;
+    float: left;
+    text-indent: 10px;
+    color: #606265;
+    outline: none;
+    border: 1px solid #ccc;
+    text-indent: 10px;
+} 
+.inner figure li input{
+    width: 300px;
+    height: 38px;
+    line-height: 38px;
+    padding-right: 0px;
+    font-size: 15px;
+    float: left;
+    text-indent: 10px;
+    color: #606265;
+    outline: none;
+    border: 1px solid #ccc;
+    text-indent: 10px;
+    background: #fbfdfe;
+}
+.inner figure li textarea{
+    width: 750px;
+    height: 30px;
+    background: #fbfdfe;
+    float: left;
+    display: block;
+    font-size: 15px;
+    resize:none;
+    border: 1px solid #ccc;
+    padding: 10px;
+} 

@@ -1,0 +1,63 @@
+.center{
+    width: 100%;
+    padding-bottom: 80px;
+    background: url(../img/back2.png) 0 0;
+    overflow: hidden;
+}
+.center section{
+    width: 1200px;
+    height: 100%;
+    margin: 0 auto;
+}
+.center section p{
+    margin:35px auto 0;
+    line-height: 50px;
+    font-size: 20px;
+    font-weight: 600;
+    color: #003a70;
+    text-indent: 65px;
+    background: url(../img/t26.png) 30px center no-repeat;
+    border-bottom: 2px solid #0088cf;
+}
+.inner{
+    width: 100%;
+    margin: 30px auto;
+    padding-bottom: 20px;
+    background: #fff;
+    overflow: hidden;
+}
+.inner figcaption{
+    background: url(../img/t25.png) 0 center no-repeat;
+    margin: 20px 40px;
+    font-size: 20px;
+    font-weight: 600;
+    color: #003a70;
+    line-height: 40px;
+    text-indent: 25px;
+}
+.cen_inner{
+    margin: 20px 40px;
+    overflow: hidden;
+}
+.cen_inner a{
+    width: 110px;
+    height: 50px;
+    line-height: 50px;
+    margin-right: 10px;
+    color: #606265;
+    text-indent: 10px;
+    font-size: 16px;
+    background: url(../img/t27.png) 0 center no-repeat;
+    cursor: pointer;
+    display: block;
+    float: left;
+}
+.cen_inner a:hover{
+    color: #003a70;
+}
+@media screen and (max-width: 1200px){
+    .center section{
+        width: 90%;
+    }
+   
+}

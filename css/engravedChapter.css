@@ -1,0 +1,121 @@
+.topInner{
+    height: 180px;
+}
+
+
+.inner{
+    width: 100%;
+    /* height: 200px; */
+    margin: 30px auto;
+    background: #f1f8fc;
+    padding: 10px 0px 50px;
+}
+
+.inner figcaption{
+    margin: 20px 0px 10px 0px;
+    background: url(../img/t16.png) 20px 22px no-repeat;
+}
+#inn_download figcaption{
+    margin: 20px 0px 10px 0px;
+    background: url(../img/t36.png) 20px 22px no-repeat;
+}
+.inner li{
+    margin:10px 30px;
+    width: 80%;
+    line-height: 30px;
+    overflow: hidden;
+}
+.inner .inner_add{
+    float: left;
+    cursor: pointer;
+}
+.inner .inn_type{
+    width: 430px;
+    margin-left: 10px;
+    float: left;
+}
+.inner span{
+    margin:0px 10px;
+    font-size: 18px;
+}
+.inner label{
+    margin-left: 15px;
+    margin-right: 5px;
+}
+.inner .inn_choose{
+    float: left;
+}
+.inner .inn_choose select{
+    width: 300px;
+    height: 30px;
+    line-height: 30px;
+    font-size: 16px;
+    color: #606265;
+    border:1px solid #ccc;
+}
+
+/* 上传，下载     */
+#inn_download ul{
+    width: 90%;
+    margin: 0 auto;
+    overflow: hidden;
+}
+#inn_download li{
+    width: 50%;
+    height: 30px;
+    line-height: 30px;
+    text-indent: 20px;
+    background:url(../img/t27.png) 0 center no-repeat;
+    float: left;
+    margin: 5px 0;
+    font-size: 16px;
+    cursor: pointer;
+}
+#inn_download li:hover{
+    color: #0b68e5;
+    background:url(../img/t27-1.png) 0 center no-repeat;
+}
+#inn_upload figcaption{
+    background: url(../img/t37.png) 20px 22px no-repeat;
+}
+
+#upload{
+    margin: 30px auto;
+    width: 90%;
+    height: 40px;
+    padding-left: 10px;
+    background: #f2f2f1;
+    line-height: 40px;
+    text-align: center;
+    font-size: 16px;
+    border: none;
+    outline: none;
+    cursor: pointer;
+}
+
+.centerInner3{
+    padding-bottom: 70px;
+}
+
+
+
+.next{
+    width: 200px;
+    height: 50px;
+    text-align: center;
+    display: block;
+    background: url(../img/t3.png) 0 0;
+    font-size: 18px;
+    color: #fff;
+    outline: none;
+    border: none;
+    margin: 70px auto 0;
+    border-radius: 25px;
+    -webkit-border-radius: 25px;
+    -moz-border-radius: 25px;
+    -o-border-radius: 25px;
+    -ms-border-radius: 25px;
+    behavior: url(../css/PIE.htc);
+    cursor: pointer;
+    overflow: hidden;
+}

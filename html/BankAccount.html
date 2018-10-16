@@ -1,0 +1,176 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>政企通服务平台</title>
+    <link rel="Shortcut Icon" href="../img/logo4.png"/>
+    <link rel="stylesheet" href="../css/topfooter.css">
+    <link rel="stylesheet" href="../css/publicbank.css">
+    <link rel="stylesheet" href="../css/BankAccount.css">
+    <link rel="stylesheet" href="../css/pagination.css">
+    <link rel="stylesheet" href="../css/patch.css">
+    <script src="../js/jquery-1.8.0.min.js"></script>
+    <!--[if IE]>
+        <script src="../js/html5shiv.min.js"></script>
+    <![endif]-->
+    <!--[if lte IE 9]>
+     <script src="../js/jquery.placeholder.js"></script>  
+     <script>  
+        $(function(){  
+            $('input[placeholder]').placeholder();  
+        });  
+     </script>  
+    <![endif]--> 
+</head>
+<body>
+    <div id="box">
+    <!-- nav -->
+        <nav>
+            <div class="title">
+                <a href="../html/index.html">欢迎来到政企通服务平台！</a>
+                <span class="btn_top">退出</span>
+                <span>18888888888用户</span> 
+            </div>
+        </nav>
+        <div class="patch"><p>查看流程</p></div>
+        <!-- top -->
+        <section class="top">
+            <div class="topInner">
+                <figcaption>银行开户</figcaption>
+                <figure>
+                    <ul>
+                        <li>
+                            <label for="">公司名称</label>
+                            <select>
+                                <option selected="selected" disabled="disabled"  style='display: none' value=''></option>
+                                <option value="">中国移动有限公司</option>
+                                <option value="">中国移动有限公司</option>
+                                <option value="">中国移动有限公司</option>
+                                <option value="">中国移动有限公司</option>
+                            </select>
+                        </li>
+                        <li>
+                            <label for="">银行类型</label>
+                            <select>
+                                <option selected="selected" disabled="disabled"  style='display: none' value=''></option>
+                                <option value="">工商银行</option>
+                                <option value="">工商银行</option>
+                                <option value="">工商银行</option>
+                                <option value="">工商银行</option>
+                            </select>
+                        </li>
+                        <li>
+                            <label for="">信用卡申办</label>
+                            <span id="choice">
+                                <img src="../img/a21.png" alt="">
+                            </span>
+                            <label style="width:150px;margin-left:105px;">个人银行卡申办</label>
+                            <span id="choice2">
+                                <img src="../img/a21.png" alt="">
+                            </span>
+                        </li>
+                    </ul>
+                </figure>  
+            </div>
+        </section>
+    <!-- center -->
+        <section class="center">
+            <div class="centerInner3">
+                <figcaption>网点选择</figcaption>
+                <div class="dot_choice">
+                    <select name="" id="">
+                        <option value="河南省">河南省</option>
+                        <option value="河南省">河南省</option>
+                        <option value="河南省">河南省</option>
+                        <option value="河南省">河南省</option>
+                        <option value="河南省">河南省</option>
+                        <option value="河南省">河南省</option>
+                    </select>
+                    <select name="" id="">
+                        <option value="郑州市">郑州市</option>
+                        <option value="郑州市">郑州市</option>
+                        <option value="郑州市">郑州市</option>
+                        <option value="郑州市">郑州市</option>
+                        <option value="郑州市">郑州市</option>
+                    </select>
+                    <select name="" id="">
+                        <option value="正东区">正东区</option>
+                        <option value="正东区">正东区</option>
+                        <option value="正东区">正东区</option>
+                        <option value="正东区">正东区</option>
+                        <option value="正东区">正东区</option>
+                    </select>
+                    <div class="search">
+                        <input type="text" value="" placeholder="搜索网点">
+                        <button></button>
+                    </div>
+                </div>
+            <!-- map_start -->
+                <div class="dot_selection">
+                    <figure class="doc_innner"></figure>  
+                    <!-- map_right -->
+                    <div class="doc_right" style="display:none;">
+                        <p>XX地级市支行<img src="../img/pic18.png" alt="" id="toggle"></p>
+                        <ul>
+                            <li class="select"><span>1.</span>会展中心网点</li>
+                            <li><span>2.</span>二七区网点</li>
+                            <li><span>3.</span>金水区网点</li>
+                            <li><span>4.</span>中原区网点</li>
+                            <li><span>5.</span>惠济区网点</li>
+                            <li><span>6.</span>管城区网点</li>
+                            <li><span>7.</span>金水区网点</li>
+                            <li><span>8.</span>中原区网点</li>
+                            <li><span>9.</span>惠济区网点</li>
+                            <li><span>10.</span>管城区网点</li>
+                        </ul>
+                        <div id="pagination"></div>
+                    </div>
+                    <!-- map_right2 -->
+                    <div class="xq_right">
+                        <p class="xq_return"><span class="xq_ret">返回</span>“地级市xxx支行”</p>
+                        <div class="xq_dot">
+                           <h3>二七区网点</h3>
+                            <div class="xq_article">
+                                <div>      
+                                    <p>中国工商银行（INDUSTRIAL AND COMMERCIAL BANK OF CHINA，简称ICBC ，工行）成立于1984年1月1日。总行位于北京复兴门内大街55号，是中央管理的大型国有银行， [1]  也是中国四大银行之一。 [2]  中国工商银行拥有中国最大的客户群，是中国最大的商业银行之一， [3]  也是世界五百强企业之一， [4]  基本任务是依据国家的法律和法规，通过国内外开展融资活动筹集社会资金，加强信贷资金管理，支持企业生产和技术改造，为我国经济建</p>      
+                                </div>  
+                            </div> 
+                        </div>
+                    </div>
+                </div>
+            
+                <input type="button" value="下一步" id="next">
+            <!-- map_end -->
+            </div>    
+        </section>
+    <!-- footer -->
+        <section class="footer">
+            <div class="bottom">
+                <div class="botImg">
+                    <img src="../img/weixin.png" alt="">
+                    <p>公众号二维码</p>
+                </div>
+                <div class="bottom_right">
+                    <p><span>主办单位：河南省政企通有限公司</span><span>承办单位：河南省政企通有限公司</span></p>
+                    <p><span>联系电话：0371-96596</span></span><span>备案：豫ICP备18011154号</span></p>
+                    <p>Copyright © 2018 hnszqt.com</p>
+                </div>
+                <ul>
+                    <li><a href="../html/download.html">下载中心</a></li>
+                    <li><a href="../html/aboutUs.html">关于我们</a></li>
+                    <li><a href="../html/contacts.html">联系我们</a></li>
+                    <li><a href="../html/webStatement.html">网站声明</a></li>
+                    <li><a href="../html/privacy.html">隐私声明</a></li>
+                </ul>
+            </div>
+        </section>
+    </div>
+    <!-- main_end -->	
+</body>
+<!-- 分页 -->
+<script type="text/javascript" src="../js/pagination.min.js"></script>
+<script type="text/javascript" src="../js/bankAccount.js"></script>
+<script type="text/javascript" src="../js/patch.js"></script>
+</html>

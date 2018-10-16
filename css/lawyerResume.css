@@ -1,0 +1,304 @@
+/* -----------我是下拉列表默认样式--------------------------- */
+
+select {
+    /*Chrome和Firefox里面的边框是不一样的，所以复写了一下*/
+    border: solid 1px #000;
+
+    /*很关键：将默认的select选择框样式清除*/
+    appearance:none;
+    -moz-appearance:none;
+    -webkit-appearance:none;
+
+    /*在选择框的最右侧中间显示小箭头图片*/
+    background:#efefef url("../img/t6.png") no-repeat scroll right center ;
+
+
+    /*为下拉小箭头留出一点位置，避免被文字覆盖*/
+    padding-right: 14px;
+}
+
+
+    /*清除ie的默认选择框样式清除，隐藏下拉箭头*/
+select::-ms-expand { display: none; }
+
+/* ------------------end------------------- */
+
+.center{
+    width: 100%;
+    padding-bottom: 60px;
+    background: url(../img/back2.png) 0 0;
+    overflow: hidden;
+}
+.center section{
+    width: 1200px;
+    height: 100%;
+    margin: 0 auto;
+}
+.center .cen_title{
+    margin:35px auto 0;
+    line-height: 50px;
+    font-size: 20px;
+    font-weight: 600;
+    color: #003a70;
+    text-indent: 65px;
+    background: url(../img/t26.png) 30px center no-repeat;
+    border-bottom: 2px solid #0088cf;
+    overflow: hidden;
+}
+.center .cen_title a{
+    color: #676b6d;
+}
+.center .cen_title a:hover{
+    color: #eb6a02;
+}
+.center .cen_title span{
+    float: right;
+    font-size: 14px;
+    color: #676b6d;
+}
+
+.personal{
+    width: 160px;
+    height: 160px;
+    float: left;
+}
+.personal_boy{
+    background: #e5f1fe url(../img/boy.png) center center no-repeat;
+}
+.personal_girl{
+    background: #e5f1fe url(../img/girl.png) center center no-repeat;
+}
+.center figure{
+    width: 92%;
+    /* height: 500px; */
+    margin: 50px auto;
+    padding: 50px 4%;
+    background:#f9f9f9;
+}
+.basic{
+    overflow: hidden;
+}
+.per_right{
+    width:920px;
+    float: right; 
+    overflow: hidden; 
+}
+.center .perTitle{
+    width: 100%;
+    height: 40px;
+    padding-bottom:10px;
+    margin-left: 0px;
+    margin-top: 0px;
+    overflow: hidden;
+    background: url(../img/t30.png) 0 center repeat-x;
+}
+.perTitle span{
+    line-height: 40px;
+    padding:0px 10px;
+    background: #f9f9f9;
+    color: #424445;
+}
+.perTitle span button{
+    width: 60px;
+    height: 25px;
+    line-height: 25px;
+    background: #e4e7e9;
+    border-radius: 20px;
+    border: none;
+    outline: none;
+    border-radius:25px;
+    -webkit-border-radius: 25px;
+    -moz-border-radius: 25px;
+    -o-border-radius:25px;
+    -ms-border-radius: 25px;
+    behavior:url(../css/PIE.htc);
+    position: relative;
+    
+}
+.perTitle span button:hover{
+    color: #fff;
+    background: #0088cf;
+    cursor: pointer;
+}
+.per_right p{
+    width: 100%;
+    margin:10px 0px 10px 20px;
+    overflow: hidden;
+}
+.per_right p label{
+    width: 100px;
+    height: 30px;
+    line-height: 30px;
+    display: block;
+    float: left;   
+}
+.per_first{
+    letter-spacing: 10px;
+}
+.per_right p input, .per_right .pre span{
+    width: 150px;
+    height: 30px;
+    line-height: 30px;
+    display: block;
+    float: left;
+    border:none;
+    font-size: 16px;
+    margin-right: 50px;
+    padding: 0px 3px;
+    background: #efefef;
+}
+.per_right p select,.per_right p option{
+    width: 150px;
+    height: 30px;
+    line-height: 30px;
+    display: block;
+    float: left;
+    border:none;
+    font-size: 16px;
+    padding:0px 20px 0 3px; 
+    /* background: #efefef url(../img/t6.png) 0 100px no-repeat; */
+}
+.per_right .pre span{
+    background: none;
+}
+.xq_basic textarea{
+    width: 95%;
+    padding: 20px 2.5%;
+    margin: 0 auto;
+    height: 300px;
+    resize:none;
+    font-size: 16px;
+    text-align: left;
+}
+#preservation{
+    width: 200px;
+    height: 50px;
+    text-align: center;
+    display: block;
+    background: url(../img/t3.png) 0 0;
+    font-size: 18px;
+    color: #fff;
+    outline: none;
+    border:none;
+    border-radius:25px;
+    -webkit-border-radius: 25px;
+    -moz-border-radius: 25px;
+    -o-border-radius:25px;
+    -ms-border-radius: 25px;
+    behavior:url(../css/PIE.htc);
+    position: relative;
+    float: left;
+    cursor: pointer;
+}
+
+.submit input:hover{
+    letter-spacing: 2px;
+    font-size: 19px;
+    
+}
+#box .submit{
+    width: 400px;
+    overflow: hidden;
+    margin: 50px auto;
+}
+#cancel{
+    width: 100px;
+    height: 50px;
+    text-align: center;
+    display: block;
+    float: right;
+    outline: none;
+    border:none;
+    background: none;
+    font-size: 18px;
+    color: #85878a;
+    letter-spacing: 5px;
+    cursor: pointer;
+}
+#cancel:hover{
+    color: #eb6a02;
+}
+.xq_basic_inner{
+    width: 95%;
+    padding: 20px 2.5%;
+    margin: 0 auto;
+    /* background: #fff; */
+}
+#sex{
+    float: left;
+    overflow: hidden;
+    width: 200px;
+    height: 30px;
+}
+#box #sex label{
+    padding-right: 25px;
+    width: 40px;
+    margin-right: 30px;
+     display:inline-block;
+    background: url(../img/a22.png) right center no-repeat;
+}
+#box #sex input{
+    float: none;
+    width: 20px;
+    height: 20px;
+    display: none;
+}
+label input[type="radio"]{
+    display: none;
+}
+#box #sex .checked{
+    background: url(../img/a23.png) right center no-repeat; 
+}
+
+
+
+
+
+
+
+
+/* 弹窗 */
+#HBox{  
+    width: 300px;
+    height: 300px;
+    display: none;
+    position: fixed;top: 50%;left: 50%; z-index: 999;
+    margin: -150px 0 0 -150px;
+    background: #fff;
+}
+#HBox img{
+    width: 200px;
+    height: 200px;
+    margin: 50px auto 0;
+    display: block;
+}
+#col{
+    width: 100%;
+    height: 100%;
+    position:fixed;top: 0;left: 0;z-index: 99;
+    background:rgba(0,0,0,0.5);
+    filter:progid:DXImageTransform.Microsoft.gradient(startColorstr=#7f000000,endColorstr=#7f000000);  
+}
+
+
+
+@media screen and (max-width: 1200px){
+    .center section{
+        width: 90%;
+    }
+    #box .personal{
+        margin: 0 auto;
+    }
+    #box .personal,#box .per_right{
+        float: none;
+    }
+    #box .years{
+        padding-top: 40px;
+        float: none; 
+          
+    }
+    #box .years_in{
+        margin-top: -30px;
+        margin-left: 100px;
+    }
+}

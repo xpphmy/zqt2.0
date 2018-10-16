@@ -1,0 +1,75 @@
+.cen_in_out{
+    width: 100%;
+    /* height: 600px; */
+    background: #fff;
+    padding-top: 50px;
+    padding-bottom: 100px;
+    margin: 10px auto 0;
+}
+.cen_in_top{
+    width: 95%;
+    /* height: 430px; */
+    margin: 0px auto 20px;
+    background: #f2f5f9;
+}
+.cen_in_top img{
+    width: 100%;
+    /* height: 100%; */
+}
+/* center_left */
+.cen_in_Inner{
+    width: 95%;
+    margin: 0 auto;
+    overflow: hidden;
+}
+.cen_in_Inner section{
+    height: 150px;
+    float: left;
+}
+.cen_in_Inner .cen_in_InnerLeft{
+    width: 350px;
+}
+.cen_in_Inner .cen_in_InnerCenter{
+    width: 315px;
+}
+.cen_in_Inner .cen_in_InnerRight{
+    width: 150px;
+}
+.cen_in_Inner li{
+    line-height: 30px;
+    overflow: hidden;
+}
+.cen_in_Inner li label,.cen_in_Inner li div{
+    float: left;
+    font-size: 18px;
+    color: #606265;
+}
+.cen_in_Inner li label{
+    width: 100px;
+}
+.cen_in_InnerRight button{
+    display: block;
+    width:100%;
+    height: 45px;
+    line-height: 45px;
+    font-size: 18px;
+    margin-top: 50px;
+    border:none;
+    outline: none;
+    color: #fff;
+    line-height: 50px;
+    background: #629ae5;
+    cursor: pointer;
+    position: relative;
+    border-radius:10px;
+    -webkit-border-radius: 10px;
+    -moz-border-radius: 10px;
+    -o-border-radius: 10px;
+    -ms-border-radius: 10px;
+    behavior: url(../css/PIE.htc); 
+}
+.cen_in_InnerRight button:hover{
+    background: #327ee3;
+}
+
+

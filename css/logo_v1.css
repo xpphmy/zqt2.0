@@ -1,0 +1,221 @@
+*{
+    margin: 0;padding: 0;
+}
+body,html{ 
+    font-family: "Microsoft YaHei" ! important;
+    color: #34598b;
+}
+ul,li{
+    list-style: none;
+}
+a{
+    text-decoration: none;
+}
+#box{
+    width: 100%;
+    background: #f8faff;
+    position: relative;
+}
+nav{
+    width: 100%;
+    height: 500px;
+    background: #439ff1;    
+}
+.nav_Top{
+    width: 70%;
+    height: 100%;
+    margin: 0 auto;
+    background: url(../img/map1.png) 0 70px no-repeat;
+}
+.center{
+    width: 100%;
+    position: absolute;top: 120px;left: 0;z-index: 3;
+}
+.inner{
+    width: 650px;
+    height: 524px;
+    margin: 0 auto;
+    position: relative;
+}
+.center_header{
+    width: 100%;
+    height: 76px;
+    background: url(../img/icon6.png) center center no-repeat;
+    overflow: hidden;
+    position: absolute;top:-25px;z-index: 2;
+}
+.center_header img{
+    width: 35px;
+    height: 40px;
+    margin: 15px 0 0 255px;
+    float: left;
+}
+.center_header span{
+    line-height: 65px;
+    font-size: 26px;
+    float: left;
+    display: block;
+    color: #f3f8fe;
+    text-indent: 10px;
+    text-align: center;
+}
+.cen_In_Img{
+    width: 100%;
+    height: 100%;
+    position: absolute;z-index: -1;
+}
+.cen_In_Img img{
+    width: 100%;
+    height: 100%;
+}
+.center_inner{
+    width: 624px;
+    height: 524px;
+    position: absolute;z-index: 4;
+}
+.center_inner p{
+    width: 260px;
+    height: 50px;
+    padding-top: 80px;
+    margin:0 auto;
+    line-height: 50px;
+    font-size: 20px;
+    overflow: hidden;
+}
+.center_inner p span{
+    width: 80px;
+    display: block;
+    cursor: pointer;
+}
+.center_inner p span:hover{
+    color: #2284dc;
+}
+.center_inner p span:first-child{ 
+    float: left;
+}
+.center_inner p span:first-child+span{
+    float:right;  
+}
+.center_inner ul{
+     width: 420px;
+     margin: 20px auto;
+}
+.center_inner li{
+    margin: 15px 0 0 0;
+    height: 52px;
+    background: #fff;
+    overflow: hidden;
+}
+.center_inner li span{
+    display: block;
+    float: left;
+    width: 80px;
+    height: 100%;
+    background: #d4dae2;  
+}
+.center_inner li span img{
+    width: 25px;
+    height: 25px;
+    display: block;
+    margin: 12px auto 0;
+}
+.center_inner li input{
+    width: 330px;
+    border:none;
+    height: 50px;
+    line-height: 50px;
+    font-size: 18px;
+    color: #34598b; 
+    outline: none;
+    text-indent: 30px;
+    float: left;
+}
+.center_inner li input::input-placeholder{color:#8b9eb8;}
+.center_inner li input::-webkit-input-placeholder { /* WebKit browsers */color:#8b9eb8;}
+.center_inner li input::-moz-placeholder { /* Mozilla Firefox 4 to 18 */color:#8b9eb8;}
+.center_inner li input::-moz-placeholder { /* Mozilla Firefox 19+ */color:#8b9eb8;}
+.center_inner li input::-ms-input-placeholder { /* Internet Explorer 10+ */color:#8b9eb8;}
+.cenInner{
+    width: 420px;           
+    margin: 0 auto;
+    overflow: hidden;
+}
+.cenInner a{
+    width: 100px;
+    height: 50px;
+    line-height: 50px;
+    font-size: 20px;
+    display:block;
+    color: #8b9eb8;
+}
+.cenInner a:hover{
+    color: #2284dc;
+}
+.cenInner a:first-child{
+    float: left;
+}
+.cenInner a:first-child+a{
+    float: right;
+}
+.btn{
+    width: 420px;
+    height: 50px;
+    margin: 0 auto;
+}
+.btn button{
+    width: 100%;
+    height: 50px;
+    line-height: 50px;           
+    text-align: center;
+    font-size: 24px;
+    color: #f3f8fe;
+    background: #a4aab2;
+    letter-spacing: 5px;
+    display: inline-block;
+    border:none;
+    outline: none;
+    cursor: pointer; 
+}
+.btn button:hover{
+    color: #fff; 
+    letter-spacing: 15px;
+    text-align: center;
+    text-indent: 5px;
+    background: url(../img/t4.png)-150px 0;
+}
+.select{
+    color: #2284dc;
+}
+#liShow{
+    display: block;
+}
+.show{
+    display: none;
+}
+.ScanCode{
+    width: 350px;
+    margin: 0 auto; 
+}
+.ScanCodeImg{
+    width: 200px;
+    height: 250px;
+    padding: 15px 50px;
+    margin: 10px auto 20px;
+    border:1px solid #ccc;
+    background: #fff;
+}
+.ScanCode img{
+    width: 200px;
+    height: 200px;
+    margin: 10px auto; 
+}
+.selCode{
+    width: 325px;
+    text-align: right;
+}
+.selCode a{
+    color: #34598b;
+}
+.selCode a:hover{
+    color: #439ff1;
+}

@@ -1,0 +1,156 @@
+/* nav */
+*{
+    margin: 0 ;padding: 0;
+}
+html,body{
+    font-family: Microsoft YaHei;font-size: 16px;
+}
+ul,li{
+    list-style: none;    
+}
+textarea{
+    color: #606265;
+}
+a{text-decoration: none;}
+img{border-style:none; } 
+#box{
+    min-width: 1024px;
+}
+nav{
+    width: 100%;
+    height: 40px;
+    background: #304b65;
+    
+}
+.title{
+    width: 1200px;
+    height: 40px;
+    margin: 0 auto;
+    line-height: 40px;
+    color: #fff;
+    font-size: 15px;
+    background: url(../img/logo0.png) 0 center no-repeat;
+    overflow: hidden;
+}
+.title a{
+    width: 300px;
+    height: 40px;
+    display: block;
+    text-indent: 80px;
+    float: left;
+    color: #fff;
+}
+.title span{
+    float: right;
+    margin-left:30px;
+}
+/* footer */
+.footer{
+    width: 100%;
+    height: 100px;
+    background: #fcfcfc;
+    overflow: hidden;
+}
+.bottom{
+    width: 1200px;
+    /* min-width: 1200px; */
+    height:80px;
+    padding-top: 10px;
+    margin: 0 auto;
+    overflow: hidden;
+}
+.bottom .botImg{
+    width: 100px;
+    display: block;
+    float: left;
+}
+.bottom img{
+    width: 60px;
+    height: 60px;
+    margin: 0 auto;
+    display: block;
+}
+.bottom .botImg p{
+    text-align: center;
+    font-size: 14px;
+}
+.bottom .bottom_right{
+    float: left;
+    margin-top: 10px;
+    margin-left: 30px;
+}
+.bottom .bottom_right p{
+    line-height: 20px;
+    color: #18283f;
+    font-size: 13px;
+}
+.bottom ul{
+    width: 400px;
+    height: 60px;
+    margin-top: 10px;
+    float: right;
+    overflow: hidden;
+}
+.bottom ul li{
+    width: 20%;
+    float: left;
+    text-align: center;
+    font-size: 13px;
+}
+.bottom ul li:first-child+li{
+    background: url(../img/pic13.png) center 0 no-repeat;
+}
+.bottom ul li:first-child+li+li{
+    background: url(../img/pic14.png) center 0 no-repeat;
+}
+.bottom ul li:first-child+li+li+li{
+    background: url(../img/pic15.png) center 0 no-repeat;
+}
+.bottom ul li:first-child+li+li+li+li{
+    background: url(../img/pic16.png) center 0 no-repeat;
+}
+.bottom ul li:first-child{
+    background: url(../img/t32.png) center 0 no-repeat;
+}
+.bottom_right p{
+    overflow: hidden;
+}
+.bottom_right p span{
+    display: block;
+    width: 250px;
+    float: left;
+}
+.bottom ul li a{
+    width: 100%;
+    height: 100%;
+    display: block;
+    padding-top: 35px;
+    color: #18283f;
+}
+.bottom ul li a:hover{
+    color: #0088cf;
+}
+
+
+
+
+
+
+
+@media screen and (max-width: 1200px){
+    .title{
+        width: 90%;
+    }
+    .bottom{
+        width: 98%;
+    }
+    .top{
+        width: 90%;
+    }
+    .bottom_right p span {
+        width: 220px;
+    }
+    .bottom ul {
+        width: 333px;
+    }
+}
